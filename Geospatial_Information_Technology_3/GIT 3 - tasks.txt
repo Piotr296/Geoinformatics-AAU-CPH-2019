@@ -1,0 +1,29 @@
+Exercise 2
+The IT department at Aalborg University (AAU) intends to automatically generate email addresses for its students and staff.
+Write a code for them in Python to do this job faster. To do so, write a python script to ask for inputting first name, 
+family name and your birth year of each person and to return an ID code
+including the first character of your first name + a dot + the first 5
+characters of your family name + the last two digits of your birth year
+and generates an email address from AAU domain (aau.dk).
+Populate your list with the name of at least 5 persons. Do not forget to
+include comments in your script as well as an introduction about your
+code in the beginning (e.g., author, date, code functionality, etc.).
+
+Exercise 3
+Write a script, which adds all odd numbers between 1 and 100 (both inclusive) and finally writes the result to
+the screen. Run the script and check the result. Write a Python script that computes and prints all prime
+numbers that are less than 100. Run the script and check the result.
+
+Exercise 4
+Write a code to receive guesses for a number between 1 and 100 within 10 attempts. Use module random.
+
+Exercise 5
+Outlier detection in a point cloud dataset
+Write a script which reads an input ASCII file with X Y Z laser points (blank separated: data.txt) 
+and checks the points for outliers. Outlier points are points with high or low zcoordinate values z>80.0 or z<75.0.
+The script will
+-Read the input file name data.txt:
+-Write detected outliers to a file called as the input file + suffix "outlier_": outlier_data.txt
+-Write all other points into a file called as the input file + suffix "pts_": pts_data.txt
+-The user should be informed about each step (e.g. number of outliers, number of
+points).
